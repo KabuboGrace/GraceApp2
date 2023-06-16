@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScrollViewActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item1"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game1"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item2"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="30dp"/>
+        <ImageView
+            android:layout_width="156dp"
+            android:layout_height="195dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/games2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item3"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="206dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/games3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item4"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="206dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/game4" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item5"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="206dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/game6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item6"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="206dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/game7" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item7"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="206dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/game8" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
